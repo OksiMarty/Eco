@@ -37,3 +37,93 @@ section {
   font-size: xx-large;
   font-weight: 600;
 }
+.pro-go {
+  color: #749443;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 600;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+.logo-mini {
+  width: 2.5rem;
+}
+
+.btn-custom {
+  background-color: #76973f;
+  color: white;
+
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #5a7230; /* Change color on hover */
+}
+.flex-container {
+  display: flex;
+  justify-content: center; /* Aligns buttons in the center horizontally */
+  gap: 4rem; /* Space between buttons */
+  flex-wrap: wrap;
+}
+.team-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 4rem;
+  padding: 4rem;
+  padding-top: 0;
+}
+.team-member {
+  box-shadow: 0.2rem 0.2rem 0.2rem #888;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+}
+.ava {
+  width: 12rem;
+
+  display: block;
+  margin: 1.5rem auto 0 auto;
+  border-radius: 50%;
+  box-shadow: 0.2rem 0.2rem 0.2rem #888;
+}
+.text-wrapper {
+  padding: 2rem;
+}
+.filler {
+  display: block;
+  opacity: 0.9;
+  margin: 3rem auto;
+  width: 70%;
+}
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 5rem;
+  padding-top: 0;
+  margin-bottom: 2rem;
+}
+.project-text {
+  padding: 2rem;
+  padding-left: 0;
+  padding-top: 0;
+}
+.project-image {
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+.news-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 4rem;
+  padding-top: 0;
+}
+.futter {
+  background-color: #f8f9fa;
+}
+
+.contacts-wrapper {
+  padding: 2rem;
+}
