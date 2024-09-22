@@ -12,10 +12,10 @@ body {
 
 .first-section {
   display: grid;
-
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   padding: 2rem;
 }
+
 .main-text {
   padding-left: 2rem;
   padding-right: 6rem;
