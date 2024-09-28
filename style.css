@@ -168,14 +168,27 @@ body {
 .contacts-wrapper {
   padding: 2rem;
 }
-@media (max-width: 1024px) {
+
+/* Portrait orientation */
+@media (orientation: portrait) and (max-width: 1024px) {
   .go {
-    font-size: 0.5rem;
+    font-size: 1.3rem;
+  }
+  .main-text {
+    font-size: 0.7rem;
+  }
+}
+
+/* Landscape orientation */
+@media (orientation: landscape) and (max-width: 1180px) {
+  .go {
+    font-size: 1.5rem;
   }
   .main-text {
     font-size: 1rem;
   }
 }
+
 @media (max-width: 480px) {
   .go {
     font-size: 1.5rem;
