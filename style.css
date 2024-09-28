@@ -168,6 +168,21 @@ body {
 .contacts-wrapper {
   padding: 2rem;
 }
+a {
+  text-decoration: none;
+}
+.flag {
+  width: 1.5%;
+}
+.language {
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+.link-style {
+  margin: 0.4rem;
+  font-size: 0.7rem;
+  text-decoration: none;
+}
 
 /* Portrait orientation */
 @media (orientation: portrait) and (max-width: 1024px) {

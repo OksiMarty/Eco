@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ecoinitiative</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- jQuery (required for Bootstrap 4 features, if needed) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <!-- Popper.js for Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+
+    <!-- Bootstrap 4 JavaScript (if still using any Bootstrap 4 components) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap 5 JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="logo.png" alt="" class="logo-nav"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#progo"
+              >About us</a
+            >
+            <a class="nav-link" href="#team">Our team</a>
+            <a class="nav-link" href="#projects">Activities</a>
+
+            <a class="nav-link" href="#news">News</a>
+            <a class="nav-link" href="#contacts">Contacts</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="language">
+      <a href="/">
+        <span class="link-style">UKR</span>
+        <img src="images/flag-ukr.png" alt="" class="flag" />
+      </a>
+    </div>
+    <div class="first-section">
+      <div id="photoCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/slider1.jpg"
+              class="d-block w-100"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/slider2.jpg"
+              class="d-block w-100"
+              alt="Second slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/slider3.jpg"
+              class="d-block w-100"
+              alt="Third slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/slider4.jpg"
+              class="d-block w-100"
+              alt="Third slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/slider5.jpg"
+              class="d-block w-100"
+              alt="Third slide"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#photoCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#photoCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+      <div>
+        <img src="logo.png" alt="" class="logo-main-section" />
+        <p class="go">Non-Govermental Organization</p>
+
+        <p class="main-text">
+          The NGO ‘EcoInitiative’ is a voluntary public association the main
+          goal of which is to support national, regional, and local
+          environmental initiatives for sustainable development through
+          research, education and awareness-raising activities among population
+          of all ages, including those with special needs, and of different
+          social status.
+        </p>
+      </div>
+    </div>
+    <div class="pro-go" id="progo"><strong>ABOUT US</strong></div>
+    <div class="container">
+      <div class="flex-container">
+        <!-- Button to toggle Item 1 -->
+        <button
+          class="btn btn-custom mb-2"
+          type="button"
+          data-toggle="collapse"
+          data-target="#item1"
+          aria-expanded="false"
+          aria-controls="item1"
+        >
+          Areas of activity
+        </button>
+
+        <div id="item1" class="collapse">
+          <ul class="list-group">
+            <li class="list-group-item">
+              ▪️ Participation in joint programs and projects with domestic and
+              international organizations aimed at preventing negative
+              environmental trends for the preservation and enhancement of human
+              health, environmental education, and nature conservation
+              awareness.
+            </li>
+            <li class="list-group-item">
+              ▪️ Participation in obtaining and implementing grants aimed at
+              preventing negative environmental trends for the preservation and
+              enhancement of human health, environmental education, and nature
+              conservation awareness.
+            </li>
+            <li class="list-group-item">
+              ▪️ Organization and conduct of research in the fields of ecology,
+              nature conservation, sustainable use of natural resources, human
+              health, environmental education, and nature conservation
+              awareness.
+            </li>
+            <li class="list-group-item">
+              ▪️ Participation in conducting public assessments and expert
+              evaluations, as well as public monitoring of the state of the
+              environment and public health.
+            </li>
+            <li class="list-group-item">
+              ▪️ Providing scientific and informational-methodological support
+              on issues of optimizing the state of the environment for the
+              preservation and enhancement of human health, environmental
+              education, and nature conservation awareness.
+            </li>
+            <li class="list-group-item">
+              ▪️ Organization of scientific, educational, awareness-raising,
+              health-promoting, recreational, and cultural events aimed at
+              achieving the goals of the organization, as well as participation
+              in similar events organized by other organizations and
+              institutions.
+            </li>
+            <li class="list-group-item">
+              ▪️ Conducting educational and advisory activities (including
+              seminars, trainings, round tables, consultations, competitions,
+              exhibitions) aimed at achieving the goals of the organization, as
+              well as participation in similar events organized by other
+              organizations and institutions.
+            </li>
+            <li class="list-group-item">
+              ▪️ Promoting the development of local ecotourism.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Button to toggle Item 2 -->
+        <button
+          class="btn btn-custom mb-2"
+          type="button"
+          data-toggle="collapse"
+          data-target="#item2"
+          aria-expanded="false"
+          aria-controls="item2"
+        >
+          Cooperation
+        </button>
+        <!-- Toggled List Item 2 -->
+        <div id="item2" class="collapse">
+          <ul class="list-group">
+            <li class="list-group-item">
+              ▪️ The NGO 'EcoInitiative' is open to ideas for establishing real,
+              mutually beneficial partnerships with organizations that share our
+              mission.
+            </li>
+            <li class="list-group-item">
+              ▪️ The NGO 'EcoInitiative' has the right to establish
+              international relations and activities in accordance with its
+              Charter and the current legislation of Ukraine, as well as
+              international law norms and principles. The organization's
+              international activities are carried out through: participation in
+              international projects, work with international organizations;
+              organizing the exchange of delegations; organizing tournaments,
+              competitions, conferences, exhibitions, fairs, etc., with the
+              participation of foreign partners; sending its representatives to
+              participate in relevant events abroad; and conducting joint
+              research with foreign organizations in line with its activities.
+            </li>
+          </ul>
+        </div>
+        <!-- Button to toggle Item 1 -->
+        <button
+          class="btn btn-custom mb-2"
+          type="button"
+          data-toggle="collapse"
+          data-target="#item3"
+          aria-expanded="false"
+          aria-controls="item3"
+        >
+          Funding
+        </button>
+        <!-- Toggled List Item 1 -->
+        <div id="item3" class="collapse">
+          <ul class="list-group">
+            <li class="list-group-item">
+              ▪️ The NGO 'EcoInitiative' is a legal entity (Registration number
+              (EDRPOU) 45195361) as of October 5, 2023.
+            </li>
+            <li class="list-group-item">
+              ▪️ The NGO 'EcoInitiative' is a non-profit organization. According
+              to the decision of the Main Department of the State Tax Service in
+              Sumy Oblast, Sumy District Tax Inspectorate (Sumy) dated October
+              6, 2023, No. 231819460000125. We attract grant funding and conduct
+              events and research upon request.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <img src="images/filler.jpg" alt="" class="filler" />
+
+    <div class="pro-go" id="team">
+      <strong>OUR TEAM</strong>
+    </div>
+    <div class="team-wrapper">
+      <div class="team-member">
+        <img src="images/avas/tor.jpg" alt="" class="ava" />
+        <div class="text-wrapper">
+          <h3>Valentyna Torianyk</h3>
+          <h5>Head of the NGO</h5>
+          <p>
+            PhD in Biology, Associate Professor of the Department of Biology and
+            Methods of Teaching Biology at Sumy State Pedagogical University
+            named after A.S. Makarenko
+          </p>
+        </div>
+      </div>
+      <div class="team-member">
+        <img src="images/avas/mos.jpg" alt="" class="ava" />
+        <div class="text-wrapper">
+          <h3>Mykola Moskalenko</h3>
+          <h5>Board Member of the NGO</h5>
+          <p>
+            PhD in Biological Sciences, Associate Professor of the Department of
+            Biology and Methods of Teaching Biology at Sumy State Pedagogical
+            University named after A.S. Makarenko
+          </p>
+        </div>
+      </div>
+      <div class="team-member">
+        <img src="images/avas/mir.jpg" alt="" class="ava" />
+        <div class="text-wrapper">
+          <h3>Liudmyla Mironets</h3>
+          <h5>Board Member of the NGO</h5>
+          <p>
+            PhD in Pedagogical Sciences, Associate Professor of the Department
+            of Biology and Methods of Teaching Biology at Sumy State Pedagogical
+            University named after A.S. Makarenko, Dean of the Natural Sciences
+            and Geography Faculty at Sumy State Pedagogical University named
+            after A.S. Makarenko
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="pro-go" id="projects"><strong>ACTIVITIES</strong></div>
+    <div class="project-container">
+      <div><img src="images/tourism.jpg" alt="" class="project-image" /></div>
+      <div class="project-text">
+        <div class="project-title">
+          "The NGO 'EcoInitiative' is a partner in the project 'Diversification
+          of Rural Economy through a Network of Public Consulting Centers for
+          Tourism.'"
+        </div>
+        <p>
+          In November 2023, the NGO 'EcoInitiative' partnered in the project
+          'Diversification of Rural Economy through a Network of Public
+          Consulting Centers for Tourism,' implemented by the NGO 'Association
+          of Rural Green Tourism of Ukraine' with the support of the Estonian
+          Centre for International Development and Tallinn University. It
+          provided partnership support in organizing a hackathon in Sumy Oblast
+          involving local entrepreneurs, educators, scientists, community
+          members, representatives of the state, and local self-government.
+        </p>
+      </div>
+    </div>
+
+    <div class="project-container">
+      <div><img src="images/zeleni.jpg" class="project-image" /></div>
+      <div class="project-text">
+        <div class="project-title">
+          The NGO 'EcoInitiative' successfully implemented the project 'Green
+          Adventures.
+        </div>
+        <p>
+          On April 13, 2024, in accordance with the content of the project
+          'Green Adventures,' developed by the members of the NGO
+          'EcoInitiative' at the request of the Charitable Organization
+          'Charitable Foundation "Best Friends"' within the charitable program
+          'Smart Children – the Future of Ukraine,' which aims to assist
+          children from the city of Sumy in their education and development of
+          their abilities, a walking tour of an educational and local lore
+          nature and a quest on the theme of the excursion were conducted for
+          the children of combatants and their parents at the Botanical Garden
+          of Sumy State Pedagogical University named after A.S. Makarenko.
+          Participants of the event simultaneously engaged in 'green therapy,'
+          actively moving and 'absorbing' fresh air, sunlight, sounds, colors,
+          and scents; they received prizes and enjoyed tea with sweets.
+        </p>
+      </div>
+    </div>
+
+    <div class="project-container">
+      <div><img src="images/kids.jpg" alt="" class="project-image" /></div>
+      <div class="project-text">
+        <div class="project-title">
+          The NGO 'EcoInitiative' is a participant in the charity event for
+          International Children's Day.
+        </div>
+        <p>
+          On June 2, 2024, at the Botanical Garden of Sumy State Pedagogical
+          University named after A.S. Makarenko, at the request of the
+          charitable organization 'Sumy Jewish Fund Hesed Chaim,' members of the
+          NGO 'EcoInitiative' conducted an environmental educational tour in
+          celebration of International Children's Day. Participants included
+          representatives of the Jewish community of Sumy: children from the
+          Sunday school; grandmothers, fathers, and mothers from the Family
+          Club; and women from the Women's Club. In their feedback, they noted:
+          'We visited the excursion at the Botanical Garden of Sumy State
+          Pedagogical University named after A.S. Makarenko. Once again, we were
+          convinced that we live in a wonderful, picturesque country with
+          beautiful nature and a pleasant climate. In a small area, plants from
+          different corners of our planet grow peacefully... Nature itself
+          teaches us that all nations and all countries of the world should also
+          live in peace and harmony.'
+        </p>
+      </div>
+    </div>
+
+    <div class="pro-go" id="news">
+      <strong>NEWS</strong>
+    </div>
+    <div class="news-wrapper">
+      <div class="news-item-wrapper">
+        <img src="images/memoran.jpg" alt="" class="news-image" />
+        <div class="news-text">
+          <div class="news-title">
+            Memorandum of Cooperation between the NGO 'EcoInitiative' and the
+            Charitable Foundation 'Best Friends.'
+          </div>
+          <div class="news-text">
+            On February 6, 2024, a memorandum of cooperation was signed between
+            the NGO 'EcoInitiative' and the Charitable Organization 'CHARITABLE
+            FOUNDATION "BEST FRIENDS"' in the areas defined in the
+            organizations' charters (ecology, environmental protection;
+            education; science and scientific research; healthcare; sports and
+            physical culture; assistance to victims of disasters, armed
+            conflicts, and accidents, as well as refugees and individuals in
+            difficult life circumstances; culture and arts, protection of
+            cultural heritage), including through joint participation in local
+            and regional charitable projects, grant programs, etc., for
+            sustainable development.
+          </div>
+        </div>
+      </div>
+      <div class="news-item-wrapper another-news">
+        <img src="images/memoran.jpg" alt="" class="news-image" />
+        <div class="news-text">
+          <div class="news-title">
+            Меморандум про співпрацю ГО «ЕкоІніціатива» з БФ «Кращі друзі»
+          </div>
+          <div class="news-text">
+            6 лютого 2024 р. між ГО «ЕкоІніціатива» та Благодійною організацією
+            «БЛАГОДІЙНИЙ ФОНД «КРАЩІ ДРУЗІ» підписаний меморандум про співпрацю
+            у сферах, визначених у статутах організацій (екологія, охорона
+            довкілля; освіта; наука і наукові дослідження; охорона здоров’я;
+            спорт і фізична культура; допомога постраждалим внаслідок катастроф,
+            збройних конфліктів і нещасних випадків, а також біженцям та особам,
+            які перебувають у складних життєвих обставинах; культура та
+            мистецтво, охорона культурної спадщини), в т. ч шляхом спільної
+            участі у локальних і регіональних благодійних проєктах, грантових
+            програмах тощо задля сталого розвитку.
+          </div>
+        </div>
+      </div>
+      <div class="news-item-wrapper another-news">
+        <img src="images/memoran.jpg" alt="" class="news-image" />
+        <div class="news-text">
+          <div class="news-title">
+            Меморандум про співпрацю ГО «ЕкоІніціатива» з БФ «Кращі друзі»
+          </div>
+          <div class="news-text">
+            6 лютого 2024 р. між ГО «ЕкоІніціатива» та Благодійною організацією
+            «БЛАГОДІЙНИЙ ФОНД «КРАЩІ ДРУЗІ» підписаний меморандум про співпрацю
+            у сферах, визначених у статутах організацій (екологія, охорона
+            довкілля; освіта; наука і наукові дослідження; охорона здоров’я;
+            спорт і фізична культура; допомога постраждалим внаслідок катастроф,
+            збройних конфліктів і нещасних випадків, а також біженцям та особам,
+            які перебувають у складних життєвих обставинах; культура та
+            мистецтво, охорона культурної спадщини), в т. ч шляхом спільної
+            участі у локальних і регіональних благодійних проєктах, грантових
+            програмах тощо задля сталого розвитку.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="futter">
+      <div class="contacts-wrapper" id="contacts">
+        <h6>Contacts:</h6>
+        <p><span>Phone:</span> <em>+30667508665</em></p>
+        <p>
+          <span>Email:</span>
+          <em>toryanik_vn@ukr.net</em>
+        </p>
+        <p><span>©2024</span></p>
+      </div>
+    </div>
+  </body>
+</html>
