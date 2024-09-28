@@ -1,5 +1,7 @@
 body {
   font-family: "Wix Madefor Display", sans-serif !important;
+
+  overflow-x: hidden;
 }
 .logo-nav {
   max-width: 220px;
