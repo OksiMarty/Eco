@@ -7,6 +7,7 @@ body {
   max-width: 220px;
   padding-left: 2rem;
   padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
 }
 .nav-link {
   color: #322a1d;
@@ -25,10 +26,10 @@ body {
 }
 
 .logo-main-section {
-  max-width: 75%;
+  max-width: 85%;
   padding-top: 1rem;
-  padding-left: 1rem;
 }
+
 .carousel-item {
   opacity: 0.9;
   padding: 2rem;
