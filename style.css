@@ -114,7 +114,7 @@ body {
   border-radius: 0.5rem;
 }
 .news-image {
-  width: 30%;
+  width: 80%;
 
   display: block;
   margin: 1.5rem auto 0 auto;
@@ -131,9 +131,17 @@ body {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
 }
-.another-news {
-  display: none;
+.current-project-container {
+  margin: 2rem 10rem;
 }
+
+.float-image {
+  float: left; /* Makes the image float to the left */
+  margin-right: 3rem; /* Adds space between the image and the text */
+  margin-bottom: 3rem; /* Adds space below the image */
+  width: 60%; /* Optional: set a size for the image */
+}
+
 .filler {
   display: block;
   opacity: 0.9;
@@ -184,6 +192,14 @@ a {
   font-size: 0.7rem;
   text-decoration: none;
 }
+.zoom-photo {
+  width: 30%;
+}
+.zoom-photo2 {
+  float: right; /* Makes the image float to the left */
+  margin-left: 3rem; /* Adds space between the image and the text */
+  margin-bottom: 3rem; /* Adds space below the image */
+} /* }
 
 /* Portrait orientation */
 @media (orientation: portrait) and (max-width: 1024px) {
@@ -202,6 +218,18 @@ a {
   }
   .main-text {
     font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .current-project-container {
+    margin: 2rem 3rem; /* Reduces margins for smaller screens */
+  }
+
+  .float-image {
+    width: 100%; /* Image takes full width on small screens */
+    float: none; /* Removes floating */
+    margin-right: 0; /* Removes right margin */
+    margin-bottom: 2rem; /* Keeps bottom margin */
   }
 }
 
