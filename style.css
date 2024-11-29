@@ -103,7 +103,7 @@ body {
 }
 .news-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 4rem;
   padding: 4rem;
   padding-top: 0;
@@ -126,7 +126,7 @@ body {
 }
 .news-title {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding-left: 0.5rem;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
@@ -170,6 +170,15 @@ body {
 
   padding-bottom: 1rem;
 }
+.hidden {
+  display: none;
+}
+.read-more-button {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .futter {
   background-color: #f8f9fa;
 }
