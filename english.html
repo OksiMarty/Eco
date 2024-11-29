@@ -492,6 +492,67 @@
     </div>
     <div class="news-wrapper">
       <div class="news-item-wrapper">
+        <img src="images/eco-skills.jpg" alt="" class="news-image" />
+        <div class="news-text">
+          <div class="news-title">
+            Members of the NGO "EcoInitiative" Participate in the First Event of
+            the International Grant Project "Enhancing Eco-Skills Through
+            Cross-Border Cooperation Between V4 and Ukraine No. 22420189"
+          </div>
+          <div class="news-text">
+            On November 20, 2024, the first event of the International Grant
+            Project "Enhancing Eco-Skills Through Cross-Border Cooperation
+            Between V4 and Ukraine No. 22420189" took place — an international
+            online webinar titled "Collaborative Strategies for Regional
+            Eco-Challenges."
+
+            <div class="hidden">
+              <p>
+                The event brought together 186 participants from Ukraine,
+                Poland, and Slovakia into a community focused on addressing
+                global and regional ecological challenges in their countries
+                through sustainable development initiatives and cross-border
+                cooperation. Environmental experts from three European countries
+                presented their latest research on the impacts of environmental
+                pollution and climate change on wildlife, the ecological
+                condition of rivers, ecosystem transformation processes caused
+                by non-native species, innovative ecological developments
+                utilizing microorganisms for environmental cleaning and
+                restoration, waste bioconversion for the green transformation of
+                European countries, and achieving climate neutrality in the long
+                term. Webinar participants actively engaged in discussions with
+                experts, shared their experiences, and exchanged knowledge on
+                successful environmental research initiatives and methodologies.
+                The webinar program is available here:
+                <br />
+                <i>
+                  <a
+                    href=" https://docs.google.com/document/d/18WZHOFOE5lO_6_cqoPST0mUOmtRk1l9H/edit"
+                  >
+                    Program Link</a
+                  ></i
+                >
+
+                <br />
+                The project is being implemented by A.S. Makarenko Sumy State
+                Pedagogical University (Ukraine), Pomeranian University in
+                Słupsk (Poland), and the University of St. Cyril and Methodius
+                in Trnava (Slovakia) (<a
+                  href="https://sspu.edu.ua/holovna-visegrad"
+                  >Details</a
+                >) with financial support from the International Visegrad Fund’s
+                Visegrad+ program (<a href=" https://www.visegradfund.org/"
+                  >Fund Website</a
+                >).
+              </p>
+            </div>
+            <span class="read-more-button" onclick="toggleContent(this)"
+              >Read More</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="news-item-wrapper">
         <img src="images/visegrad.jpg" alt="" class="news-image" />
         <div class="news-text">
           <div class="news-title">
@@ -524,14 +585,23 @@
             in celebration of International Children's Day. Participants
             included representatives of the Jewish community of Sumy: children
             from the Sunday school; grandmothers, fathers, and mothers from the
-            Family Club; and women from the Women's Club. In their feedback,
-            they noted: 'We visited the excursion at the Botanical Garden of
-            Sumy State Pedagogical University named after A.S. Makarenko. Once
-            again, we were convinced that we live in a wonderful, picturesque
-            country with beautiful nature and a pleasant climate. In a small
-            area, plants from different corners of our planet grow peacefully...
-            Nature itself teaches us that all nations and all countries of the
-            world should also live in peace and harmony.'
+            Family Club; and women from the Women's Club.
+
+            <div class="hidden">
+              <p>
+                In their feedback, they noted: 'We visited the excursion at the
+                Botanical Garden of Sumy State Pedagogical University named
+                after A.S. Makarenko. Once again, we were convinced that we live
+                in a wonderful, picturesque country with beautiful nature and a
+                pleasant climate. In a small area, plants from different corners
+                of our planet grow peacefully... Nature itself teaches us that
+                all nations and all countries of the world should also live in
+                peace and harmony.'
+              </p>
+            </div>
+            <span class="read-more-button" onclick="toggleContent(this)"
+              >Read More</span
+            >
           </div>
         </div>
       </div>
@@ -570,5 +640,17 @@
         <p><span>©2024</span></p>
       </div>
     </div>
+    <script>
+      function toggleContent(button) {
+        const content = button.previousElementSibling; // Select the sibling <div>
+        if (content.classList.contains("hidden")) {
+          content.classList.remove("hidden");
+          button.textContent = "Read Less";
+        } else {
+          content.classList.add("hidden");
+          button.textContent = "Read More";
+        }
+      }
+    </script>
   </body>
 </html>
